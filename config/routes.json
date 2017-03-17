@@ -1,0 +1,49 @@
+{
+  "/": {
+    "method": "get",
+    "route": "modules/routes/index.js",
+    "model": "modules/models/index.js"
+  },
+
+  "/about": {
+    "method": "get",
+    "route": "modules/routes/about.js",
+    "model": "modules/models/about.js"
+  },
+
+  "/lab": {
+    "method": "get",
+    "route": "modules/routes/lab.js",
+    "model": "modules/models/lab.js"
+  },
+
+  "/portfolio": {
+    "method": "get",
+    "route": "modules/routes/portfolio.js",
+    "model": "modules/models/portfolio.js"
+  },
+
+  "/contact": {
+    "method": "get",
+    "route": "modules/routes/contact.js",
+    "model": "modules/models/contact.js"
+  },
+
+  "/resume": {
+    "method": "get",
+    "route": "modules/routes/resume.js",
+    "model": "modules/models/resume.js"
+  },
+
+  "/project/:id": {
+    "method": "get",
+    "route": "modules/routes/project.js",
+    "model": "modules/models/project.js"
+  },
+
+  "/api/send": {
+    "method": "post",
+    "route": "modules/routes/api/send.js",
+    "model": "modules/models/api/send.js"
+  }
+}

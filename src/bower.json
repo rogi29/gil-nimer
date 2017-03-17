@@ -1,0 +1,26 @@
+{
+  "name": "ruddy_setup",
+  "version": "1.0.0",
+  "authors": [
+    "Gil Nimer <gil@ruddy.nl>"
+  ],
+  "description": "Bower setup for ruddy",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ruddy": "*",
+    "ruddy-animation": "*",
+    "ruddy-scroll": "*",
+    "ruddy-ajax": "*",
+    "cssFx": "*",
+    "shapes-polyfill": "*"
+  }
+}

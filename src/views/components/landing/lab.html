@@ -1,0 +1,15 @@
+<section id="lab" class="showcase remove">
+    <h2>{{lab.header}}</h2>
+    <div class="responsive container">
+        {{#lab.modules}}
+        <div class="module">
+            <div class="image"><img src="{{head.static}}{{image}}" alt="{{header}}" /></div>
+            <h3><a href="{{url}}">{{header}}</a></h3>
+            <p>{{desc}}</p>
+        </div>
+        {{/lab.modules}}
+    </div>
+    <div class="link-more">
+        <a href="{{lab.button.url}}">{{lab.button.text}}</a>
+    </div>
+</section>

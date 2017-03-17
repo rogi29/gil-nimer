@@ -1,0 +1,88 @@
+{
+  "titles": {
+    "home": "Gil Nimer - Web Developer & Designer",
+    "about": "Gil Nimer - About who is Gil Nimer?",
+    "lab": "Gil Nimer - Projects and frameworks",
+    "portfolio": "Gil Nimer - Web and graphic design",
+    "contact": "Gil Nimer - Contact Me!",
+    "resume": "Gil Nimer - Resume",
+    "project": "Gil Nimer - project"
+  },
+  "header": {
+    "intro": [
+      [
+        "Hello, ",
+        "I am",
+        " Gil Nimer."
+      ],
+      "A web developer & designer",
+      "And I always say...",
+      "A good code needs a good design!"
+    ]
+  },
+  "main": {
+    "about": {
+      "header": "Always learning more",
+      "body": "My name is Gil Nimer, I am a self-taught passionate web developer and designer who focuses on long term projects, custom application development, and framework development. I love the idea of always been able to invent and create high quality web applications with the skills I gatherd in my four years of learning and developing client-side and server-side together with my designing skills.",
+      "tags": "Logo design,Branding design,Web Design,Responsive Design,HTML5 Markup validity,CSS3,Media Queries,Javascript,Ajax,jQuery,Cross Browser Compatibility,PHP7,Object Oriented Programming,MVC Pattern,Singleton Pattern,NodeJS,Express,SocketIO,MongoDB,Redis,Rest API"
+    },
+    "lab": {
+      "header": "Take a look at my Lab",
+      "modules": [
+        {
+          "header": "RuddyJS",
+          "url": "http://github.com/rogi29/RuddyJS/tree/0.0.3",
+          "image": "images/ruddyjs_icon.png",
+          "desc": "RuddyJS is a library that simplify and unify javascript, compatible with most browsers and platforms."
+        },
+        {
+          "header": "RuddyPHP",
+          "url": "http://github.com/rogi29/RuddyPHP",
+          "image": "images/ruddyphp_icon.png",
+          "desc": "A solid web framework written in php, which produce secure and flexible CMS and custom APIs."
+        },
+        {
+          "header": "Ruddy2D",
+          "url": "http://github.com/rogi29/Ruddy2D",
+          "image": "images/ruddy2d_icon.png",
+          "desc": "Ruddy2D is a 2D web based game engine that feature a full game engine including a physics engine."
+        }
+      ],
+      "button": {
+        "text": "Check out my Github for more!",
+        "url": "https://github.com/rogi29?tab=repositories"
+      }
+    },
+    "portfolio": {
+      "header": "Here are some of my projects",
+      "button": {
+        "text": "Did you like it? There is more!",
+        "url": "https://www.behance.net/GilNimer"
+      }
+    }
+  },
+  "footer": {
+    "thankyou": [
+      "Thank you for checking out my portfolio!",
+      "Please, feel free to contact me."
+    ],
+    "contact": {
+      "figure": "Gil Nimer is a full-stack web developer and designer who focuses on long term projects, custom application development, and framework development.",
+      "tags": "Logo design,Branding,Web Design,Responsive Design,Markup Validity,HTML5,CSS3,Media Queries,Javascript,Ajax,jQuery,Cross Browser Compatibility,PHP,Object Oriented Programming,NodeJS,Express,SocketIO,MongoDB,Redis,Rest API,MSSQL,MySQL",
+      "links": {
+        "linkedin": "https://www.linkedin.com/in/gilnimer/",
+        "facebook": "https://www.facebook.com/gil.nimer/",
+        "behance": "https://www.behance.net/GilNimer",
+        "github": "https://github.com/rogi29"
+      }
+    },
+    "copyright": {
+      "text": "<a href=\"http://www.gilnimer.com/\">Gil Nimer</a> is copyright © 2017 Github projects and code samples are licensed under MIT.",
+      "link": "http://www.gilnimer.com/"
+    }
+  },
+  "buttons": {
+    "contact": "Contact Me",
+    "scroll": "Get to know me more"
+  }
+}

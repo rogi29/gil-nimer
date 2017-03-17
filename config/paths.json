@@ -1,0 +1,41 @@
+{
+  "builds": {
+    "src": "./src",
+    "dest": {
+      "uri": "",
+      "dir": "./public"
+    }
+  },
+
+  "data": {
+    "files": "./src/data/**/*.json"
+  },
+
+  "html": {
+    "files": "src/**/*.html",
+    "views": "src/views/**/*.html",
+    "src": "./src/views",
+    "dest": "./src/views"
+  },
+
+  "scripts": {
+    "filename": "main.js",
+    "files": "./src/scripts/**/*.js",
+    "ruddy": "./src/scripts/**/*.rjs",
+    "src": "./src/scripts",
+    "dest": "./public/scripts"
+  },
+
+  "styles": {
+    "filename": "stylesheet.css",
+    "src": "./src/styles",
+    "dest": "./public/styles",
+    "files": "src/styles/**/*.scss"
+  },
+
+  "bower": {
+    "filename": "lib.js",
+    "json": "./src/bower.json",
+    "components": "./src/bower_components"
+  }
+}

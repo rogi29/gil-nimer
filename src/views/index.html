@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en-IL">
+    <head itemscope itemtype="https://schema.org/Person">
+        <meta charset="UTF-8">
+        <title>{{head.title}}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <meta name="description" content="Page description. No longer than 155 characters." />
+
+        <meta itemprop="name" content="Gil Nimer: Web developer & Designer">
+        <meta itemprop="description" content="{{contact.figure}}">
+        <meta itemprop="image" content="http://i.imgur.com/zKOZhsu.jpg">
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@gilnimer.com">
+        <meta name="twitter:title" content="Gil Nimer: Web developer & Designer">
+        <meta name="twitter:description" content="{{contact.figure}}">
+        <meta name="twitter:creator" content="@GilNimer">
+        <meta name="twitter:image:src" content="http://i.imgur.com/IKxrWun.jpg">
+
+        <meta property="og:title" content="Gil Nimer: Web developer & Designer" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="http://www.gilnimer.com/" />
+        <meta property="og:image" content="http://i.imgur.com/bpF8E5L.jpg" />
+        <meta property="og:description" content="{{contact.figure}}" />
+        <meta property="og:site_name" content="Gil Nimer" />
+        <meta property="fb:app_id" content="559003140958438"/>
+        <meta property="fb:admins" content="1566451810" />
+
+        <link rel="icon" type="image/png" href="{{head.static}}images/favicon.ico?v=0.2">
+        <link rel="shortcut icon" type="image/png" href="{{head.static}}images/favicon.ico?v=0.2">
+        <link class="cssfx" rel="stylesheet" href="{{head.static}}styles/stylesheet.css">
+        <link class="cssfx" rel="stylesheet" href="{{head.static}}styles/font-awesome.min.css">
+        <!--[if IE 7]>
+        <link class="cssfx" rel="stylesheet" href="{{head.static}}styles/font-awesome-ie7.css">
+        <![endif]-->
+    </head>
+    <body>
+        <script>
+            window.fbAsyncInit = function() {
+                FB.init({
+                    appId      : '559003140958438',
+                    xfbml      : true,
+                    version    : 'v2.8'
+                });
+                FB.AppEvents.logPageView();
+            };
+
+            (function(d, s, id){
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) {return;}
+                js = d.createElement(s); js.id = id;
+                js.src = "//connect.facebook.net/en_US/sdk.js";
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+        </script>
+        {{> components/loading}}
+        {{> components/popup}}
+        {{> components/header}}
+        {{> components/landing}}
+        {{> components/footer}}
+        <script src="{{head.static}}scripts/lib.js"></script>
+        <script src="{{head.static}}scripts/main.js"></script>
+        <script>
+            window.token = "{{token}}";
+            window.titles = JSON.parse($str("{{head.titlesParsed}}").toHTML());
+        </script>
+    </body>
+</html>

@@ -1,0 +1,14 @@
+<div id="about" class="remove">
+    <div class="profile-picture">
+        <img src="{{head.static}}images/profile.jpg" alt="Gil Nimer" />
+    </div>
+    <article>
+        <h2>{{about.header}}</h2>
+        <p class="body">{{about.body}}</p>
+        <p class="tags">
+            {{#about.tags}}
+            <a href="https://www.google.co.il/search?site=&q={{encoded}}">{{whitespace}}</a>
+            {{/about.tags}}
+        </p>
+    </article>
+</div>
