@@ -13,13 +13,8 @@ import {
 } from '../config';
 
 const app = express();
-//const mongoStore = connectMongo(session);
-// const mongoConf = JSON.parse(process.env.APP_CONFIG).mongo;
-const password = 'qetu1357zcbm./';
 
 let sess = {
-    secret: '1112941997',
-    //store: new mongoStore({ url: `mongodb://${mongoConf.user}:${password}@${mongoConf.hostString}` }),
     resave: true,
     saveUninitialized: true
 };
